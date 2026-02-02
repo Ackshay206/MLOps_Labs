@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   retrain:
     runs-on: ubuntu-latest
@@ -57,8 +60,8 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --global user.email "YOUR_EMAIL@users.noreply.github.com"
-        git config --global user.name "YOUR_USERNAME"
+        git config --global user.email "176411528+Ackshay206@users.noreply.github.com"
+        git config --global user.name "Ackshay206"
         timestamp=$(cat timestamp.txt)
         metrics_filename="${timestamp}_metrics.json"
         model_filename="model_${timestamp}_gb_model.joblib"

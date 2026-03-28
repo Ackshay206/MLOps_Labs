@@ -1,0 +1,23 @@
+# Airflow credentials and environment
+.env
+
+# Airflow runtime directories
+logs/
+plugins/
+
+# Downloaded from Apache — not custom code
+docker-compose.yaml
+
+# Airflow config (auto-generated)
+config/
+
+# Trained model files
+dags/model/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store

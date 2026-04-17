@@ -1,0 +1,21 @@
+{
+    "F1_Score": 0.9659863945578231,
+    "Accuracy": 0.956140350877193,
+    "Precision": 0.9466666666666667,
+    "Recall": 0.9861111111111112,
+    "ROC_AUC": 0.9904100529100528,
+    "confusion_matrix": {
+        "true_negatives": 38,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "true_positives": 71
+    },
+    "confidence_analysis": {
+        "mean_confidence": 0.9834511562045765,
+        "mean_confidence_correct": 0.9863646007905412,
+        "mean_confidence_incorrect": 0.9199380642305419
+    },
+    "test_samples": 114,
+    "correct_predictions": 109,
+    "incorrect_predictions": 5
+}
